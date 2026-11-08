@@ -1,0 +1,4 @@
+c_custkey,c_name,c_address,c_nationkey,c_phone,c_acctbal,c_mktsegment,c_comment,__src_action,__src_insert_dt
+1,Customer#000000001,1 Main Street,20,30-111-111-1111,1000.00,BUILDING,Initial sample customer,insert,2026-01-01 10:00:00
+2,Customer#000000002,2 High Street,10,30-222-222-2222,2500.50,AUTOMOBILE,Initial sample customer,insert,2026-01-01 10:05:00
+3,Customer#000000003,3 Market Road,30,30-333-333-3333,750.25,FURNITURE,Initial sample customer,insert,2026-01-01 10:10:00
