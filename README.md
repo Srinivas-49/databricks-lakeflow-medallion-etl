@@ -177,43 +177,6 @@ Through this project, I gained hands-on experience in:
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Access to an Azure Databricks workspace.
-- Unity Catalog enabled.
-- Permissions to create catalogs, schemas, tables, and Volumes.
-- A compatible Databricks compute environment.
-- Access to the Databricks sample datasets used by the exploration notebook.
-
-### Setup Instructions
-
-1. Clone this repository.
-
-```bash
-git clone https://github.com/YOUR_USERNAME/databricks-lakeflow-medallion-etl.git
-```
-
-2. Import the notebooks and Python files into your Databricks workspace.
-
-3. Execute the exploration notebook to prepare the source tables and landing directory.
-
-4. Upload compatible order CSV files into the configured Unity Catalog Volume.
-
-5. Configure the pipeline parameter:
-
-```text
-custom.orderStatus = F,O,P
-```
-
-6. Configure the Lakeflow Spark Declarative Pipeline with the required source and target settings.
-
-7. Execute the pipeline and validate the Bronze, Silver, and Gold tables.
-
-8. Configure a Databricks Workflow with a file arrival trigger to automate execution.
-
----
 
 ## 👨‍💻 Author
 
