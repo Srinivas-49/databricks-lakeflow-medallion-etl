@@ -1,0 +1,5 @@
+o_orderkey,o_custkey,o_orderstatus,o_totalprice,o_orderdate,o_orderpriority,o_clerk,o_shippriority,o_comment
+10001,1,F,172799.49,1995-10-11,1-URGENT,Clerk#000000001,0,Sample completed order
+10002,2,O,56000.00,1995-10-12,2-HIGH,Clerk#000000002,0,Sample open order
+10003,3,P,12500.75,1995-10-13,3-MEDIUM,Clerk#000000003,0,Sample pending order
+10004,1,F,850.25,1995-10-14,4-NOT SPECIFIED,Clerk#000000004,0,Second order for customer 1
